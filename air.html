@@ -1,0 +1,83 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>MISSION</title>
+    <!--favicon  -->
+    <link href="assets/pics/rocketfav.png" rel="icon" type="image/png">
+    <script crossorigin="anonymous"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <!--fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Iceland|Press+Start+2P|Ruslan+Display"
+          rel="stylesheet">
+    <!--javascript for popup  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="assets/css/air.css" rel="stylesheet">
+    <!-- includes the animation library  -->
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <script src="assets/js/world.js"></script>
+</head>
+
+<body>
+<!--  bootstrap navigation bar-->
+<ul class="nav navbar-light justify-content-center sticky-top">
+    <li class="nav-item">
+        <a class="nav-link active" href="home.html">Start Over</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="end.html">End Game</a>
+    </li>
+</ul>
+
+<!-- star wars entry https://codepen.io/christopherkade/pen/rJVPjz -->
+<div id="board">
+    <div id="content">
+        <p id="title">Episode III</p>
+        <p id="subtitle">YOUR MISSION</p>
+        <br>
+        <p> Save the air we breathe before our world is filled with poisonous gas.</p>
+    </div>
+</div>
+<br>
+<h1 class="animated bounceInUp slower" id="yee">AIR</h1>
+<br>
+<div class="container animated bounceInUp">
+    <p class="words animated bounceInUp" id="para">You've been dropped in the middle of a mission zone where the air is
+        highly polluted. You have a mask and goggles to wear as you make your way through the smoggy cloudiness. The
+        goggles are fogging up your vision, and it is hard to breathe through the mask. Your skin feels like its burning
+        and as you look around you ask yourself, how could this be? What should you do?
+
+    </p>
+</div>
+<!--https://codepen.io/nbalcom/pen/ozwqvb for popover  -->
+<div class="container2 animated bounceInUp">
+    <button data-content="Take the mask and goggles off. Air pollution is just a bunch of chemicals we created; therefore, they aren't hazardous or by any means lethal. Regular air is too clean for optimum health anyway. "
+            data-toggle="popover" title="Option 1"
+            type="button">
+        <a href="verywrong2.html">Option 1</a></button>
+
+    <button data-content="Keep your mask and goggles on and proceed with caution. Also making a conscious effort to keep your breathing low and slow. The average human takes around 20,000 breaths a day and whether or not you get sick from the pollution depends on how much of the chemical you inhale. "
+            data-toggle="popover" title="Option 2"
+            type="button">
+        <a href="earth.html"> Option 2</a></button>
+
+    <button data-content="Keep your mask on and run as fast as you can to safety. The less time you spend in this radioactive zone the better."
+            data-toggle="popover" title="Option 3"
+            type="button">
+        <a href="almost2.html"> Option 3</a></button>
+</div>
+<!--link to javascrpit library  -->
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
