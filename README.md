@@ -13,4 +13,4 @@ Once the user enters mission destruction they will be prompted to make decsions 
 To play Mission Destruction click [HERE](https://mission-destruction.herokuapp.com/)
 
 ## Acknowledgements
-Mission Destruction was coded by myself, Cecil Hammett, in the year 2018 as a way to learn and utilize HTML, CSS, and JavaScript. 
+Mission Destruction was coded in the year 2018 as a way to learn and utilize HTML, CSS, and JavaScript. 
